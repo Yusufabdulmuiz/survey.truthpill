@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthPill | Medicine Safety Survey</title>
+    
+    <!-- Favicon Added Here -->
+    <link rel="icon" type="image/png" href="truthpill-logo.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            green: '#0b8a46',
+                            dark: '#111827',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Merriweather', 'serif'],
+                        sans: ['Open Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@400;500;600;700&display=swap');
+        body { font-family: 'Open Sans', sans-serif; background-color: #FAFAFA; }
+        h1, h2, h3, h4 { font-family: 'Merriweather', serif; }
+    </style>
+</head>
+<body class="text-gray-800 antialiased selection:bg-gray-200 selection:text-gray-900">
+
+    <!-- Header - Centered and Enlarged Logo -->
+    <header class="w-full bg-white border-b border-gray-200 py-5">
+        <div class="max-w-3xl mx-auto px-4 flex justify-center">
+            <img src="truthpill-logo.png" alt="TruthPill Logo" class="h-14 w-auto object-contain" />
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-12 px-4 sm:px-6 max-w-3xl mx-auto">
+        
+        <article class="bg-white p-8 sm:p-12 rounded-xl shadow-sm border border-gray-200">
+            
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight mb-8 text-center">
+                You buy medicine to heal. <br>
+                <span class="text-red-600">Counterfeit drugs ensure you get worse.</span>
+            </h1>
+            
+            <div class="space-y-6 text-gray-700 text-lg leading-relaxed">
+                
+                <p>
+                    According to NAFDAC, up to <strong>15% of circulating medicines in Nigeria are substandard or falsified</strong>. Counterfeiters seamlessly clone the packaging of routine medications for malaria, diabetes, blood pressure, and other chronic ailments.
+                </p>
+
+                <p>
+                    When you unknowingly swallow these counterfeit pills, you are not just missing the cure. You are ingesting heavy metals, chalk, or expired chemicals that cause irreversible kidney damage, liver failure, and death.
+                </p>
+
+                <div class="mt-8 mb-8 p-6 bg-red-50 rounded-lg border border-red-100">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">We need your help to stop this.</h3>
+                    <p class="text-base text-gray-800">
+                        We are the team behind <strong>TruthPill</strong>, a digital health platform designed to help you verify your medication packaging instantly before you purchase.
+                    </p>
+                </div>
+
+                <p class="font-semibold text-brand-dark bg-gray-50 p-5 border-l-4 border-brand-green rounded-r-lg">
+                    Kindly participate in this short 2-minute survey to help us understand how you currently buy medicines. Your direct feedback will help us build the exact safety features needed to protect you and your family.
+                </p>
+
+            </div>
+
+            <!-- Call to Action -->
+            <div class="mt-10 flex flex-col items-center">
+                <a href="https://forms.gle/CWiU8uPVAuVCfFb58" class="inline-block w-full sm:w-auto px-10 py-4 text-lg font-bold text-white bg-brand-green hover:bg-green-700 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 text-center transform hover:-translate-y-0.5">
+                    Start the 2-Minute Survey
+                </a>
+                <p class="mt-4 text-sm text-gray-500 font-medium text-center">
+                    Your responses are completely anonymous and strictly for research and product development.
+                </p>
+            </div>
+
+        </article>
+
+    </main>
+
+</body>
+</html>
